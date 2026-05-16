@@ -1,12 +1,12 @@
-# AETHER UI
+# NOVASYNC UI
 
-![Aether UI Banner](https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=3300&auto=format&fit=crop)
+![Novasync UI Banner](https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=3300&auto=format&fit=crop)
 
 A robust, zero-latency cinematic framework engineered for next-generation SaaS dashboards and premium enterprise platforms.
 
 ## 🚀 The Architecture
 
-Aether UI is built strictly on the holy trinity of web development: **Vanilla HTML5, CSS3, and JavaScript**. By eliminating heavy framework dependencies, it achieves absolute uncompromised speed and fluid 120FPS rendering.
+Novasync UI is built strictly on the holy trinity of web development: **Vanilla HTML5, CSS3, and JavaScript**. By eliminating heavy framework dependencies, it achieves absolute uncompromised speed and fluid 120FPS rendering.
 
 ### Key Features Included:
 
