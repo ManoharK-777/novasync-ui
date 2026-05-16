@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NOVASYNC UI - Advanced responsive engineering meets cinematic interaction design.">
+    <title>NOVASYNC UI | Cinematic Experience Platform</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-obsidian text-frost">
+    
+    <!-- NOVASYNC PRELOADER -->
+    <div id="NOVASYNC-preloader">
+        <div class="preloader-content">
+            <div class="preloader-brand glitched" data-text="NOVASYNC">NOVASYNC</div>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Custom Cursor Glow -->
+    <div class="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand NOVASYNC-brand" href="#">NOVASYNC UI</a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Platform Core</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#responsive">Adaptability</a></li>
+                    <li class="nav-item"><a class="nav-link btn-glow ms-lg-3 toast-trigger" href="#">Get Access</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <section id="hero" class="hero-section d-flex align-items-center position-relative overflow-hidden">
+        <div class="ambient-mesh-bg"></div>
+        <div class="particles-container" id="particles"></div>
+        
+        <div class="container position-relative z-index-2 text-center">
+            <div class="cinematic-reveal-wrapper">
+                <div class="reveal-line"></div>
+                <h1 class="hero-title cinematic-text">NOVASYNC UI</h1>
+            </div>
+            
+            <p class="hero-subtitle mt-3 mx-auto" style="max-width: 800px; opacity: 0; animation: fadeUp 1s forwards; animation-delay: 4s;">
+                A robust, zero-latency cinematic framework.<br class="d-none d-md-block"> Engineered for next-generation SaaS dashboards and ultra-premium platforms.
+            </p>
+            
+            <div class="mt-5" style="opacity: 0; animation: fadeUp 1s forwards; animation-delay: 4.3s;">
+                <a href="#features" class="btn btn-premium-glow magnetic-btn">Explore Platform</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. FEATURES SECTION -->
+    <section id="features" class="position-relative" style="padding-top: 100px; padding-bottom: 20px;">
+        <div class="container">
+            <div class="row mb-5 text-center">
+                <div class="col-12">
+                    <h2 class="section-heading glitched" data-text="Core Architecture">Core Architecture</h2>
+                    <p class="section-subtext mx-auto">Built on a foundation of pure HTML5, CSS3, and modern Javascript, AETHER UI eliminates heavy framework dependencies. Experience uncompromised speed and fluidity.</p>
+                </div>
+            </div>
+            <div class="row g-5">
+                <!-- Feature 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card glass-panel tilt-card">
+                        <div class="card-icon glow-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+                        </div>
+                        <h3 class="card-title">Glassmorphic Engine</h3>
+                        <p class="card-desc">Advanced CSS backdrop filtering (`backdrop-filter: blur()`) combined with specular highlights to create physically accurate frosted glass interfaces that interact dynamically with ambient lighting.</p>
+                        <div class="hover-glow-effect"></div>
+                    </div>
+                </div>
+                <!-- Feature 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card glass-panel tilt-card">
+                        <div class="card-icon glow-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        </div>
+                        <h3 class="card-title">Hardware Acceleration</h3>
+                        <p class="card-desc">All cinematic transitions, 3D tilts, and magnetic interactions are strictly bound to CSS transform properties, ensuring buttery-smooth 120fps rendering by leveraging your device's GPU.</p>
+                        <div class="hover-glow-effect"></div>
+                    </div>
+                </div>
+                <!-- Feature 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card glass-panel tilt-card">
+                        <div class="card-icon glow-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                        </div>
+                        <h3 class="card-title">Zero-Shift Grids</h3>
+                        <p class="card-desc">Custom Bootstrap overrides guarantee mathematically perfect spacing and absolute structural integrity across 4K displays, ultrawides, tablets, and sub-400px mobile viewports.</p>
+                        <div class="hover-glow-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. RESPONSIVE DEVICE PREVIEW -->
+    <section id="responsive" class="bg-darker min-vh-100 d-flex flex-column justify-content-center">
+        <div class="container text-center">
+            <h2 class="section-heading">Universal Adaptation</h2>
+            <p class="section-subtext mx-auto">Fluid engineering ensures a flawless experience on any viewport.</p>
+            
+            <div class="device-showcase mt-5">
+                <div class="device-track d-flex justify-content-center align-items-end gap-4">
+                    <!-- Mobile -->
+                    <div class="device mobile glass-panel tilt-card">
+                        <div class="screen"></div>
+                        <span class="device-label">Mobile</span>
+                    </div>
+                    <!-- Tablet -->
+                    <div class="device tablet glass-panel tilt-card">
+                        <div class="screen"></div>
+                        <span class="device-label">Tablet</span>
+                    </div>
+                    <!-- Laptop -->
+                    <div class="device laptop glass-panel tilt-card">
+                        <div class="screen"></div>
+                        <span class="device-label">Desktop</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="width-tracker mt-5 glass-badge inline-block mx-auto">
+                Live Width: <span id="viewport-width">0</span>px
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ADVANCED CSS ANIMATION DEMO -->
+    <section id="demo" class="section-padding">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="section-heading">Interaction Engine</h2>
+                    <p class="section-subtext">Hover and engage to experience CSS mastery.</p>
+                </div>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="interaction-card hover-lift glass-panel text-center">
+                        <h4>Hover Lift</h4>
+                        <div class="demo-element btn-glow mt-3 toast-trigger">Engage</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="interaction-card glass-panel text-center">
+                        <h4>Magnetic Button</h4>
+                        <div class="magnetic-wrapper mt-3">
+                            <div class="magnetic-btn demo-btn toast-trigger">Pull Me</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="interaction-card glass-panel text-center">
+                        <h4>Text Glitch</h4>
+                        <h4 class="glitch-demo mt-3" data-text="ERROR 404">ERROR 404</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. INDUSTRY VERIFICATION -->
+    <section class="section-padding overflow-hidden position-relative" style="background: rgba(2, 12, 23, 0.4);">
+        <div class="container">
+            <h2 class="section-heading text-center mb-5">Industry Verification</h2>
+            
+            <div class="row g-4 text-center mb-5">
+                <div class="col-md-3 col-6">
+                    <h3 class="glitch-demo" style="font-size: 3rem; color: var(--primary);" data-text="99.9%">99.9%</h3>
+                    <p class="text-secondary">Render Efficiency</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h3 class="glitch-demo" style="font-size: 3rem; color: var(--primary);" data-text="120">120</h3>
+                    <p class="text-secondary">FPS Animation Lock</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h3 class="glitch-demo" style="font-size: 3rem; color: var(--primary);" data-text="< 50ms">< 50ms</h3>
+                    <p class="text-secondary">Interaction Latency</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h3 class="glitch-demo" style="font-size: 3rem; color: var(--primary);" data-text="100">100</h3>
+                    <p class="text-secondary">Lighthouse Score</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card glass-panel h-100" style="padding: 2rem;">
+                        <div class="stars d-flex gap-1 mb-2" style="color: var(--primary);">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        </div>
+                        <p class="quote mt-3">"The level of cinematic depth and responsive perfection here is unmatched. It feels like software from 2030."</p>
+                        <div class="author mt-4">
+                            <div class="author-info">
+                                <h5 class="mb-1 text-white">Sarah J.</h5>
+                                <span class="text-secondary" style="font-size: 0.9rem;">UX Director, Nexus Corp</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card glass-panel h-100" style="padding: 2rem;">
+                        <div class="stars d-flex gap-1 mb-2" style="color: var(--primary);">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        </div>
+                        <p class="quote mt-3">"AETHER UI redefines what is possible with vanilla CSS and Bootstrap. An absolute masterclass in web design."</p>
+                        <div class="author mt-4">
+                            <div class="author-info">
+                                <h5 class="mb-1 text-white">Marcus T.</h5>
+                                <span class="text-secondary" style="font-size: 0.9rem;">Lead Engineer, SynthWave</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-none d-lg-block">
+                    <div class="testimonial-card glass-panel h-100" style="padding: 2rem;">
+                        <div class="stars d-flex gap-1 mb-2" style="color: var(--primary);">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        </div>
+                        <p class="quote mt-3">"Incredibly fast, flawlessly responsive, and aesthetically stunning. The animations are Apple-level smooth."</p>
+                        <div class="author mt-4">
+                            <div class="author-info">
+                                <h5 class="mb-1 text-white">Elena R.</h5>
+                                <span class="text-secondary" style="font-size: 0.9rem;">Product Designer, Elevate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. FOOTER -->
+    <footer class="NOVASYNC-footer position-relative">
+        <div class="footer-glow"></div>
+        <div class="container">
+            <div class="row border-bottom border-secondary pb-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="NOVASYNC-brand fs-3 mb-3">NOVASYNC UI</h2>
+                    <p class="footer-desc">NOVASYNC UI provides a robust, zero-latency frontend framework forged in Gold and Silver. Delivering Apple-tier aesthetics without the heavy overhead of JS frameworks.</p>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <h5 class="footer-title">Platform</h5>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#responsive">Responsive</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <h5 class="footer-title">Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" class="toast-trigger">Documentation</a></li>
+                        <li><a href="#" class="toast-trigger">Components</a></li>
+                        <li><a href="#" class="toast-trigger">Showcase</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mt-4 mt-lg-0">
+                    <h5 class="footer-title">Connect</h5>
+                    <div class="social-links d-flex gap-3 flex-wrap">
+                        <a href="https://wa.me/916281476340" target="_blank" class="social-icon d-flex align-items-center justify-content-center" aria-label="WhatsApp">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg>
+                        </a>
+                        <a href="mailto:kmanohar17072007@gmail.com" target="_blank" class="social-icon d-flex align-items-center justify-content-center" aria-label="Google Email">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/manohar-k-30245b330?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-icon d-flex align-items-center justify-content-center" aria-label="LinkedIn">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
+                        </a>
+                        <a href="https://github.com/ManoharK-777" target="_blank" class="social-icon d-flex align-items-center justify-content-center" aria-label="GitHub">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="copyright">&copy; 2026 NOVASYNC UI. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="footer-legal">
+                        <li><a href="#" class="toast-trigger">Privacy Policy</a></li>
+                        <li><a href="#" class="toast-trigger">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Premium Toast Notification -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-4" style="z-index: 10000">
+        <div id="premiumToast" class="toast glass-panel border-0" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header border-0 bg-transparent text-white d-flex justify-content-between align-items-center pb-2">
+                <strong class="me-auto" style="color: var(--primary);">System Alert</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body text-light" style="font-size: 0.95rem;">
+                Action registered.
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
+
